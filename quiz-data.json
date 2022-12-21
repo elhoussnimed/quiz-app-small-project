@@ -1,0 +1,86 @@
+[
+    {
+        "question": "Which language runs in a web browser?",
+        "responses" : [
+            {
+                "data" : "javascript",
+                "isCorrect" : true
+            },
+            {
+                "data" : "python",
+                "isCorrect" : false
+            },
+            {
+                "data" : "c++",
+                "isCorrect" : false
+            },
+            {
+                "data" : "ruby",
+                "isCorrect" : false
+            }
+        ]
+    },
+    {
+        "question": "What does CSS stand for?",
+        "responses" : [
+            {
+                "data" : "Central Style Sheets",
+                "isCorrect" : false
+            },
+            {
+                "data" : "Cascading Simple Sheets",
+                "isCorrect" : false
+            },
+            {
+                "data" : "Cascading Style Sheets",
+                "isCorrect" : true
+            },
+            {
+                "data" : "Cars SUVs Sailboats",
+                "isCorrect" : false
+            }
+        ]
+    },
+    {
+        "question": "What does HTML stand for?",
+        "responses" : [
+            {
+                "data" : "Hypertext Markup Language",
+                "isCorrect" : true
+            },
+            {
+                "data" : "Hypertext Markdown Language",
+                "isCorrect" : false
+            },
+            {
+                "data" : "Hyperloop Machine Language",
+                "isCorrect" : false
+            },
+            {
+                "data" : "Helicopters Terminals Motorboats Lamborginis",
+                "isCorrect" : false
+            }
+        ]
+    },
+    {
+        "question": "What year was JavaScript launched?",
+        "responses" : [
+            {
+                "data" : "1989",
+                "isCorrect" : false
+            },
+            {
+                "data" : "1998",
+                "isCorrect" : false
+            },
+            {
+                "data" : "1995",
+                "isCorrect" : true
+            },
+            {
+                "data" : "1993",
+                "isCorrect" : false
+            }
+        ]
+    }
+]

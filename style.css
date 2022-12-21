@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.question {
+    font-size: 20px;
+    word-break: break-word;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.responses {
+    padding: 15px;
+}
+
+.response {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.response input {
+    display: block;
+    accent-color: black;
+    width: 20px;
+    height: 20px;
+}
+
+.response label {
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: .2s all ease;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.btn:active {
+    scale: .99;
+}
+
+.result {
+    width: 500px;
+    max-width: 90%;
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: none;
+}
+
+.result p {
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.chooseanswer {
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    position: fixed;
+    top: 15%;
+    translate: 0 -50%;
+    border: 2px solid red;
+    width: 500px;
+    text-align: center;
+    animation: warning .5s infinite forwards;
+    display: none;
+}
+
+@keyframes warning {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .chooseanswer {
+        max-width: 90%;
+        font-size: 18px;
+    }
+}
